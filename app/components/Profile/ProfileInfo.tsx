@@ -111,7 +111,7 @@ const ProfileInfo: FC<Props> = ({ avatar, user }) => {
             </div>
             <input
               type="submit"
-              className={`w-full 800px:w-[250px] h-[40px] border border-[#37a39a] text-center dark:text-[#fff] text-black mt-8 rounded-[3px] mt-8 cursor-pointer`}
+              className={`w-full 800px:w-[250px] h-[40px] border border-[#37a39a] text-center dark:text-[#fff] text-black mt-8 rounded-[3px] cursor-pointer`}
               required
               value="Update"
             />

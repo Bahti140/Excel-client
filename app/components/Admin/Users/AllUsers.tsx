@@ -7,8 +7,8 @@ import Loader from "../../Loader/Loader";
 import { format } from "timeago.js";
 import { useGetAllUsersQuery } from "../../../../redux/features/user/userApi";
 import { styles } from "../../../../app/styles/style";
-import { updateUserRole, deleteUser } from '../../../../../server/controllers/user.controller';
-import toast from "react-hot-toast";
+// import { updateUserRole, deleteUser } from '../../../../../server/controllers/user.controller';
+// import toast from "react-hot-toast";
 
 type Props = {
   isTeam: boolean;
