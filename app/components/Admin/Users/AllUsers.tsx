@@ -5,7 +5,7 @@ import { AiOutlineDelete, AiOutlineMail } from "react-icons/ai";
 import { useTheme } from "next-themes";
 import Loader from "../../Loader/Loader";
 import { format } from "timeago.js";
-import { useGetAllUsersQuery } from "@/redux/features/user/userApi";
+import { useGetAllUsersQuery } from "../../../../redux/features/user/userApi";
 import { styles } from "../../../../app/styles/style";
 import { updateUserRole, deleteUser } from '../../../../../server/controllers/user.controller';
 import toast from "react-hot-toast";

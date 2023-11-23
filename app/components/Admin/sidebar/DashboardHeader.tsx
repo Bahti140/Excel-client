@@ -1,7 +1,7 @@
 import {
   useGetAllNotificationsQuery,
   useUpdateNotificationStatusMutation,
-} from "@/redux/features/notifications/notificationApi";
+} from "../../../../redux/features/notifications/notificationApi";
 import { ThemeSwitcher } from "../../../../app/utils/ThemeSwitcher";
 import React, { FC, useEffect, useState } from "react";
 import { IoMdNotificationsOutline } from "react-icons/io";

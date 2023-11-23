@@ -4,7 +4,7 @@ import Heading from '../../utils/Heading'
 import AdminSidebar from "../../components/Admin/sidebar/AdminSidebar"
 import AdminProtected from '../../hooks/adminProtected'
 import DashboardHero from '../../components/Admin/sidebar/DashboardHero';
-import AllUsers from '@/app/components/Admin/Users/AllUsers'
+import AllUsers from '../../../app/components/Admin/Users/AllUsers'
 
 type Props = {
     

@@ -5,7 +5,7 @@ import AdminProtected from "../../../app/hooks/adminProtected";
 import Heading from "../../../app/utils/Heading";
 import AllCourses from "../../components/Admin/Course/AllCourses";
 import React from "react";
-import EditFaq from "@/app/components/Admin/Customization/EditFaq";
+import EditFaq from "../../../app/components/Admin/Customization/EditFaq";
 
 type Props = {};
 
